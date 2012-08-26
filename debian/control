@@ -7,8 +7,8 @@ Build-Depends: debhelper (>= 8.0.0), cmake,
   libqt4-dev
 Standards-Version: 3.9.3
 Homepage: http://rzr.online.fr/q/kde
-Vcs-Git: git clone git://anongit.kde.org/automoc
-Vcs-Browser: https://projects.kde.org/projects/kdesupport/automoc/repository#
+Vcs-Git: git@gitorious.org:downstream/automoc.git
+Vcs-Browser: https://gitorious.org/downstream/automoc
 
 Package: automoc-snapshot
 Architecture: any

@@ -1,9 +1,12 @@
 automoc-snapshot (0.0.0-0) lucid; urgency=low
 
-  * Initial release
-  * http://rzr.online.fr/q/harmattan
+  * URL: http://rzr.online.fr/q/kde
+  * import: https://projects.kde.org/projects/kdesupport/automoc/repository#
+  * merge: http://harmattan-dev.nokia.com/pool/harmattan/free/a/automoc/automoc_1.0~version-0.9.88-3+0m6.dsc
+  * Platform: http://rzr.online.fr/q/harmattan
 
  -- Philippe Coval <rzr@gna.org>  Sun, 26 Aug 2012 21:03:52 +0200
+
 automoc (1.0~version-0.9.88-3+0m6) unstable; urgency=low
 
   * This entry has been added by BIFH queue processor
