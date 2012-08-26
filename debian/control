@@ -1,0 +1,22 @@
+Source: automoc-snapshot
+Section: utils
+Priority: extra
+Maintainer: Philippe Coval <rzr@gna.org>
+X-Maintainer: Lassi Nieminen <lassi.ta.nieminen@nokia.com>
+Build-Depends: debhelper (>= 8.0.0), cmake,
+  libqt4-dev
+Standards-Version: 3.9.3
+Homepage: http://rzr.online.fr/q/kde
+Vcs-Git: git clone git://anongit.kde.org/automoc
+Vcs-Browser: https://projects.kde.org/projects/kdesupport/automoc/repository#
+
+Package: automoc-snapshot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+  libqt4-dev
+Description: automatic moc for Qt 4 packages
+ This package contains the automoc4 binary which is used to run moc on the right
+ binaries in a Qt 4 or KDE 4 application.
+ .
+ Moc is the meta object compiler which is a much used tool when using the Qt
+ toolkit.
